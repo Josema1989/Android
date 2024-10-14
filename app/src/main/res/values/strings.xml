@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">t3a1-Martinez-JoseManuel</string>
+    <string name="titulo">Cupcakes</string>
+    <string name="autor">Autor</string>
+    <string name="descripcion">Descripción</string>
+    <string name="ingredientes">Ingredientes</string>
+    <string name="receta">Receta</string>
+    <string name="descripcionDetallada">una receta ideal para iniciarse con los cupcakes,con la que preparar unos ricos cupcakes de vainilla con cobertura de la que os proponemos tres versiones.</string>
+    <string name="IngredientosDetallados">- 165 gramos de harina de reposteria\n- 165 gramos de mantequilla sin sal\n- 165 gramos de azucar\n- 15 ml de esencia de vainilla\n- 50 ml de leche\n- 5 gramos de levadura\n- 3 huevos medianos</string>
+    <string name="receta2">Una vez que tenemos el horno en marcha, y todos nuestros ingredientes medidos y pesados,vamos a comenzar a preparar la base de nuestros cupcakes.Nosotros empleamos una amsadora automatica,pero se puede emplear también unas varillas manuales o un robot de cocina,lo que os resulte mas comodo dentro de lo que dispongais.</string>
+</resources>
