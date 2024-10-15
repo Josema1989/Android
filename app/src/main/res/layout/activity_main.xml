@@ -43,7 +43,7 @@
         android:id="@+id/titulo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="@dimen/common_paddimg_min"
         android:layout_marginTop="88dp"
         android:text="@string/titulo"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
@@ -55,8 +55,8 @@
         android:id="@+id/autor"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginStart="@dimen/common_paddimg_default"
+        android:layout_marginTop="@dimen/common_paddimg_default"
         android:text="@string/autor"
         android:textAppearance="@style/TextAppearance.MaterialComponents.Headline3"
         android:textColor="@color/white"
@@ -68,9 +68,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="@dimen/common_paddimg_default"
         android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="@dimen/common_paddimg_default"
         android:text="@string/ingredientes"
         app:layout_constraintStart_toStartOf="@id/guideline_vertical"
         app:layout_constraintTop_toBottomOf="@id/guideline_horizontal" />
@@ -80,9 +80,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="#000000"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="@dimen/common_paddimg_default"
+        android:layout_marginTop="@dimen/common_paddimg_min"
+        android:layout_marginEnd="@dimen/common_paddimg_default"
         android:text="@string/descripcion"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/guideline_horizontal" />
@@ -106,9 +106,9 @@
         android:id="@+id/textView"
         android:layout_width="178dp"
         android:layout_height="177dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginStart="@dimen/common_paddimg_default"
+        android:layout_marginTop="@dimen/common_paddimg_min"
+        android:layout_marginEnd="@dimen/common_paddimg_default"
         android:text="@string/descripcionDetallada"
         app:layout_constraintEnd_toEndOf="@id/guideline_vertical"
         app:layout_constraintStart_toStartOf="parent"
@@ -120,7 +120,7 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="226dp"
         android:layout_marginTop="26dp"
-        android:layout_marginEnd="16dp"
+        android:layout_marginEnd="@dimen/common_paddimg_default"
         android:text="@string/IngredientosDetallados"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@id/textView"
@@ -130,7 +130,7 @@
         android:id="@+id/textView3"
         android:layout_width="381dp"
         android:layout_height="114dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="@dimen/common_paddimg_default"
         android:layout_marginTop="50dp"
 
 
@@ -138,6 +138,6 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@id/receta"
-        app:layout_goneMarginEnd="16dp" />
+        app:layout_goneMarginEnd="@dimen/common_paddimg_default" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
